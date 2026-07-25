@@ -62,6 +62,22 @@ async function analyze() {
 <b>Word Count:</b> ${data.word_count}
 </div>
 
+<div class="card">
+<b>Total Images:</b> ${data.total_images}
+</div>
+
+<div class="card">
+<b>Total Links:</b> ${data.total_links}
+</div>
+
+<div class="card">
+<b>HTTPS:</b> ${data.https ? "Yes" : "No"}
+</div>
+
+<div class="card">
+<b>SEO Score:</b> ${data.seo_score}/100
+</div>
+
 `;
 
     }
