@@ -4,7 +4,8 @@ Page Pulse is a Flask-based web application that analyzes any website URL and pr
 
 ## Features
 
-- HTTP Status
+- Analyse any website URL
+- HTTP Status Code
 - Response Time
 - Page Title
 - Meta Description
@@ -31,7 +32,7 @@ Page Pulse is a Flask-based web application that analyzes any website URL and pr
 ## Installation
 
 ```bash
-git clone <repository_url>
+git clone <https://github.com/keerthanaa09/PagePulse.git>
 
 cd PagePulse
 
@@ -63,12 +64,15 @@ Output
 ```json
 {
   "status":200,
-  "response_time":0.8,
-  "title":"Example",
-  "description":"Example description",
+  "response_time":0.51,
+  "title":"Example Website",
+  "description":"This is an example webpage description.",
   "h1_count":1,
   "images_without_alt":2,
-  "word_count":1500,
+  "total_images":24,
+  "total_links":144,
+  "https":true,
+  "word_count":935,
   "seo_score":90
 }
 ```
