@@ -2,6 +2,10 @@
 
 Page Pulse is a Flask-based web application that analyzes any website URL and provides useful webpage metrics such as HTTP status, response time, SEO-related information, and content statistics.
 
+## Live Demo
+**Live Application:** https://pagepulse-t2ie.onrender.com/
+**GitHub Repository:** https://github.com/keerthanaa09/PagePulse.git
+
 ## Features
 
 - Analyse any website URL
